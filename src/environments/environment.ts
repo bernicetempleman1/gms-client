@@ -1,4 +1,5 @@
-export const environment = {
-  production: true,
-  apiBaseUrl: 'http://localhost:3000'
-};
+
+  export const environment = {
+    production: true,
+    apiBaseUrl: 'https://gms-server-m7gk.onrender.com/api'
+    };

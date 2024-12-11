@@ -1,4 +1,9 @@
-# TmsClient
+# GmsClient
+
+Deployed on Render:
+Client:  https://gms-client-3kyz.onrender.com
+Server: https://gms-server-m7gk.onrender.com
+
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.0.3.
 

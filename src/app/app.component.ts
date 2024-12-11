@@ -22,7 +22,7 @@ import { RouterLink, RouterOutlet } from '@angular/router';
             >
           </li>
           <li class="navbar__item">
-            <a class="navbar__link" href="/plants"
+            <a class="navbar__link" routerLink="/plants"
               ><i class="fas fa-leaf"></i> Plants</a
             >
           </li>

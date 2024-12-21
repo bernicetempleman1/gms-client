@@ -1,8 +1,11 @@
 import { Component } from '@angular/core';
+import { RouterLink } from '@angular/router';
+import { RouterModule } from '@angular/router';
+
 @Component({
   selector: 'app-home',
   standalone: true,
-  imports: [],
+  imports: [RouterLink, RouterModule],
   template: `
     <div class="landing-page">
       <h1 class="landing-page__title">

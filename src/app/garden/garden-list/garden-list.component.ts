@@ -5,10 +5,12 @@ import { CommonModule } from '@angular/common';
 import { FormControl, ReactiveFormsModule } from '@angular/forms';
 import { RouterLink } from '@angular/router';
 import { debounceTime, map, of } from 'rxjs';
+import { RouterModule } from '@angular/router';
+
 @Component({
   selector: 'app-garden-list',
   standalone: true,
-  imports: [RouterLink, CommonModule, ReactiveFormsModule],
+  imports: [RouterLink, CommonModule, ReactiveFormsModule, RouterModule],
   template: `
 <div class="garden-page">
 <h1 class="garden-page__title">Garden List</h1>

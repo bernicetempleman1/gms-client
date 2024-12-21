@@ -30,7 +30,7 @@ import { RouterLink, RouterOutlet } from '@angular/router';
       </nav>
       <main class="main">
         <section class="main__section">
-          <router-outlet></router-outlet>
+          <router-outlet/>
         </section>
       </main>
       <footer class="footer">

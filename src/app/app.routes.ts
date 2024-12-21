@@ -16,6 +16,10 @@ export const routes: Routes = [
     component: GardenListComponent,
   },
   {
+    path: '/gardens',
+    component: GardenListComponent,
+  },
+  {
     path: 'gardens/add',
     component: GardenAddComponent,
   },
@@ -25,6 +29,10 @@ export const routes: Routes = [
   },
   {
     path: 'plants',
+    component: PlantListComponent,
+  },
+  {
+    path: '/plants',
     component: PlantListComponent,
   },
   {
